@@ -118,7 +118,15 @@ Create a `.env` file in the root directory and add your API key:
 CHATGPT_API_KEY=your_openai_key_here
 ```
 
-### 3. Run PageIndex on your PDF
+### 3. Set your OpenAI API base url
+
+Create a `.env` file in the root directory and add your OpenAI API base url:
+
+```bash
+CHATGPT_BASE_URL=http://localhost:11434/api
+```
+
+### 4. Run PageIndex on your PDF
 
 ```bash
 python3 run_pageindex.py --pdf_path /path/to/your/document.pdf
